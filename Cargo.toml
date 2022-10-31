@@ -8,13 +8,13 @@ edition = "2018"
 log = "0.4"
 env_logger = "0.6.0"
 dotenv = "0.13.0"
-uuid = {features = ["serde", "v4"], version = "0.5.1"}
+uuid = {features = ["serde", "v4"], version = "1"}
 sapper = {version = "0.2"}
 sapper_std = {version = "0.2", features=["monitor"]}
-rusoda = {git="https://github.com/daogangtang/rusoda"}
-tantivy = "0.12"
-jieba-rs = "0.4"
-cang-jie = "0.7"
+rusoda = {git="https://github.com/clia/rusoda"}
+tantivy = "0.18"
+jieba-rs = "0.6"
+cang-jie = "0.14"
 serde = "1.0"
 serde_json = "1.0"
 serde_derive = "1.0"
